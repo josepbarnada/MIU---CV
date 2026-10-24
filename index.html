@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 
-<head> </head>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
   <div id="personalInfo">
@@ -10,31 +12,35 @@
     </div>
     <div id="aboutMe">
       <div id="nameTitle">
-        <p id="name">Name Surname</p>
-        <p id="title">Computer Science Student</p>
+        <h1>Name Surname</h1>
+        <h3>Computer Science Student</h3>
       </div>
-      <div id="description">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet
-        consectetur adipiscing elit quisque faucibus.
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet
+          consectetur adipiscing elit quisque faucibus.
+        </p>
       </div>
     </div>
   </div>
   <div id="moreInfo">
     <div id="usefulInfo">
       <div id="contact">
-        <p id="title">Contact</p>
+        <h2>Contact</h2>
         <ul>
           <li>
             <a href="mailto:alex@gmail.com">alex@gmail.com</a>
           </li>
           <li><a href=github.com/alexferrer>github</a></li>
           <li><a href=linkedin.com/in/alexferrer>linkedin</a></li>
-          <li>Girona, Catalunya</li>
+          <li>
+            <p>Girona, Catalunya</p>
+          </li>
         </ul>
       </div>
       <div id="skills">
-        <p>Skills</p>
-        <div id="skills">
+        <h2>Skills</h2>
+        <div>
           <p>HTML</p>
           <p>React</p>
           <p>CSS</p>
@@ -44,9 +50,9 @@
         </div>
       </div>
       <div id="languages">
-        <p id="title">
+        <h2>
           Languages
-        </p>
+        </h2>
         <ul>
           <li>Catalan, native</li>
           <li>Spanis, native</li>
@@ -56,12 +62,12 @@
     </div>
     <div id="experience">
       <div id="workExperience">
-        <p id="title">Experience</p>
+        <h2>Experience</h2>
         <ul>
           <li>
-            <div id="job">
-              <p id="jobTitle">Junior web developer</p>
-              <p id="description">Estudi Nord, Girona</p>
+            <div>
+              <h3>Junior web developer</h3>
+              <p class="description">Estudi Nord, Girona</p>
               <ul>
                 <li>
                   <p> I build web pages for local businesses in HTML, CSS and JavaScript</p>
@@ -74,9 +80,9 @@
             </div>
           </li>
           <li>
-            <div id="job">
-              <p id="jobTitle">Junior web developer</p>
-              <p id="description">Estudi Nord, Girona</p>
+            <div>
+              <h3>Junior web developer</h3>
+              <p class="description">Estudi Nord, Girona</p>
               <ul>
                 <li>
                   <p> I build web pages for local businesses in HTML, CSS and JavaScript</p>
@@ -90,28 +96,33 @@
         </ul>
       </div>
       <div id="education">
-        <p id="title">Education</p>
+        <h2>Education</h2>
         <ul>
           <li>
             <p>Computer Science</p>
-            <p>Universitat de Girona</p>
+            <p class="description">Universitat de Girona</p>
           </li>
         </ul>
       </div>
     </div>
   </div>
   <div id="projects">
-    <p id="title">Projects</p>
+    <h2>Projects</h2>
+
     <ul>
       <li>
         <div>
-          <p>YTFY</p>
+          <a href="example.com">
+            <h3>YTFY</h3>
+          </a>
           <p>Music player application for android and android auto</p>
         </div>
       </li>
       <li>
         <div>
-          <p>Project 2</p>
+          <a href="example.com">
+            <h3>Project 2</h3>
+          </a>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
         </div>
       </li>
