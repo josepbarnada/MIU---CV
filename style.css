@@ -1,17 +1,27 @@
+/* variables */
+
+:root {
+  --accent-color: #0069ca;
+  --secondary-color: #737373;
+  --primary-color: black;
+}
+
+/* generic */
 body {
-  color: black;
+  color: var(--primary-color);
 }
 
 * {
   margin: 0px;
+  width: fit-content;
 }
 
 .accent {
-  color: #0069ca;
+  color: var(--accent-color);
 }
 
 .description {
-  color: #737373;
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -29,9 +39,12 @@ h3 {
   font-weight: 500;
 }
 
-p {
+p,
+a {
   font-size: 12px;
 }
+
+/* personal info */
 
 div#imageBox {
   align-content: center;
@@ -51,4 +64,41 @@ div#nameTitle {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+/* More Info - Useful Info */
+
+div#usefulInfo {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div#contact {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+div#skills {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div#skillsBox {
+  display: grid;
+  grid-auto-flow: column;
+
+  gap: 10px;
+}
+
+div#skillsBox p {
+  border-style: solid;
+  border-color: var(--accent-color);
+  border-width: 2px;
+  border-radius: 360px;
+
+  padding: 5px;
 }
