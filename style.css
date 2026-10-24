@@ -9,6 +9,7 @@
 /* generic */
 body {
   color: var(--primary-color);
+  justify-content: center;
 }
 
 * {
@@ -108,6 +109,10 @@ div#skillsBox p {
   padding: 5px;
 }
 
+div#languages {
+  padding: 0 10px;
+}
+
 /* Experience */
 
 div#experience {
@@ -168,4 +173,19 @@ li::marker {
 
 li {
   margin-bottom: 10px;
+}
+
+/* projects */
+
+div#projects {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div#projectsContent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
