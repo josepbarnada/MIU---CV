@@ -9,7 +9,15 @@
 /* generic */
 body {
   color: var(--primary-color);
-  justify-content: center;
+  box-sizing: border-box;
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+html {
+  width: 100%;
 }
 
 * {
@@ -141,6 +149,7 @@ div.listObject {
 p.date {
   padding-left: 10px;
   padding-right: 10px;
+  text-wrap: nowrap;
 }
 
 div.objectContent {
