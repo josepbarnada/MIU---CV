@@ -2,9 +2,8 @@
 
 A single-page static website that presents my Curriculum Vitae and a small portfolio of projects.
 
-- **Live site:** `https://<your-username>.github.io/<repo-name>/` <!-- replace after enabling GitHub Pages -->
-- **Figma design:** `<paste your Figma link here>`
-- **Technologies:** plain HTML5 and CSS3. No frameworks or libraries were used, because the page is small and static and handwritten CSS keeps the code easy to read and fully under my control.
+- **Live site:** `https://josepbarnada.github.io/MIU---CV/` <!-- replace after enabling GitHub Pages -->
+- **Figma design:** `<https://www.figma.com/design/GTVM1nA15LHDkdZZrfcqJx/Untitled?node-id=0-1&t=pVqH7W72e1ZNFCHU-1>`
 
 ---
 
@@ -63,17 +62,3 @@ Grouping the content in these blocks keeps the page short enough to scan without
 **Inspiration.** I looked at minimalist developer CV and portfolio templates (for example on Behance, Dribbble and GitHub Pages portfolios) and at the "Europass"-style CV structure, adapting them to a more modern, lighter look.
 
 **Responsiveness.** The layout uses flexible units and media queries so it works on desktop first and adapts to tablet and mobile screens.
-
----
-
-## 2. Project structure
-
-```
-├── index.html
-├── style.css
-└── README.md
-```
-
-## 3. How to run
-
-Open `index.html` in any browser, or visit the GitHub Pages link above.
