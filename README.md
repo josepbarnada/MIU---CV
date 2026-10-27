@@ -1,6 +1,6 @@
 # CV Website – Alex Ferrer
 
-> [NOTE]
+> [!NOTE]
 > All the information is made up
 
 A single-page static website that presents my Curriculum Vitae and a small portfolio of projects.
