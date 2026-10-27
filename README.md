@@ -1,8 +1,11 @@
 # CV Website – Alex Ferrer
 
+> [NOTE]
+> All the information is made up
+
 A single-page static website that presents my Curriculum Vitae and a small portfolio of projects.
 
-- **Live site:** `https://josepbarnada.github.io/MIU---CV/` <!-- replace after enabling GitHub Pages -->
+- **Live site:** `https://josepbarnada.github.io/MIU---CV/`
 - **Figma design:** `<https://www.figma.com/design/GTVM1nA15LHDkdZZrfcqJx/Untitled?node-id=0-1&t=pVqH7W72e1ZNFCHU-1>`
 
 ---
