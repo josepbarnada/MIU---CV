@@ -1,4 +1,4 @@
-# CV Website – Alex Ferrer
+# CV Website – Josep Barnada
 
 > [!NOTE]
 > All the information is made up
